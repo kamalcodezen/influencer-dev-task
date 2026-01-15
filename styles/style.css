@@ -35,6 +35,11 @@
     margin: 0 auto;
 }
 
+/* ---hide class */
+.hide {
+    display: none;
+}
+
 /* ---primary color pink */
 .primary-color {
     color: rgba(224, 44, 109, 1);
@@ -49,7 +54,8 @@
 .medium-dark-gray {
     color: rgba(24, 25, 31, 1);
 }
+
 /* --display felx-- */
-.display-flex{
+.display-flex {
     display: flex;
 }
