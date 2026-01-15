@@ -292,4 +292,48 @@ header .nav-container {
 }
 
 /* ----feature style :end---- */
-/* ----main area style end--- */
+/* ----------main area style end------- */
+
+/* ---footer area style start------ */
+footer {
+    background-color: #0a0826;
+}
+
+.footer-text-color {
+    color: white;
+}
+
+.footer-container {
+    justify-content: center;
+}
+
+.footer-container .footer-content {
+    width: 100%;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.footer-content .social-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.footer-content .social-info {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(217, 219, 225, 1);
+    margin-bottom: 17px;
+}
+
+.social-link {
+    gap: 16px;
+   justify-content: center;
+}
+
+.footer-content .social-link a {
+    font-size: 32px;
+}
+
+/* ---footer area style end------ */
