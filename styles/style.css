@@ -1,0 +1,36 @@
+/* ----google inter font---- */
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+/* ----google inter font---- */
+
+/* ----google poppins font----- */
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+/* ----google poppins font-----  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----container 1 */
+.container-1 {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+}
+
+/* --container 2 */
+.container-2 {
+    width: min(90%, 1110px);
+    margin: 0 auto;
+}
+
+/* ---container 3 */
+.container-3 {
+    width: min(90%, 1047px);
+    margin: 0 auto;
+}
