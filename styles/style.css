@@ -10,6 +10,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* ------------shared style start------- */
 /* ----google poppins font-----  */
 * {
     margin: 0;
@@ -59,3 +60,13 @@
 .display-flex {
     display: flex;
 }
+
+/* ------------shared style end ------- */
+
+/* ---- header style area start-------*/
+
+/*----- nav area style start----- */
+
+/*----- nav area style end ----- */
+
+/* ---- header style area end-------*/
