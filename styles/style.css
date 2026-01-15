@@ -66,8 +66,9 @@
     display: flex;
 }
 
-.company {
-    margin-bottom: 100px;
+.company,
+.item-container {
+    margin-bottom: clamp(4rem, 6vw, 6.25rem);
 }
 
 .rating-color {
@@ -192,11 +193,6 @@ header .nav-container {
 }
 
 /* ----company section style---- */
-.item {
-    margin-bottom: clamp(1.75rem, 4vw, 3rem);
-    padding-top: clamp(3rem, 8vw, 6.25rem);
-}
-
 .item-container .item-heading {
     font-size: clamp(1rem, 2.5vw, 2.125rem);
     font-weight: 600;
@@ -244,6 +240,14 @@ header .nav-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+}
+
+.item-container .item-see-more {
+    color: rgba(224, 44, 109, 1);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: end;
+    padding-top: clamp(2rem, 4vw, 3.125rem);
 }
 
 /* -----item card section style end--- */
