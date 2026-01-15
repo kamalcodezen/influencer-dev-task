@@ -48,7 +48,7 @@
 
 /* ---primary color pink */
 .primary-color {
-    color: rgba(224, 44, 109, 1);
+    background-color: rgba(224, 44, 109, 1);
 }
 
 /* ---header color 3A3A3A*/
@@ -61,7 +61,7 @@
     color: rgba(24, 25, 31, 1);
 }
 
-/* --display felx-- */
+/* --display flex-- */
 .display-flex {
     display: flex;
 }
@@ -102,5 +102,42 @@ header .nav-container {
 }
 
 /*----- nav area style end ----- */
+/* ----banner style start---- */
+.banner .banner-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-container .banner-content {
+    max-width: 580px;
+    width: 100%;
+}
+
+.banner-content .banner-heading {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.banner-content .banner-info {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.banner-content .content-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px;
+    color: white;
+    border: none;
+    border-radius: 41px;
+}
+
+.content-btn .btn-icon {
+    margin-left: 8px;
+}
+
+/* ----banner style end---- */
 
 /* ---- header style area end-------*/
