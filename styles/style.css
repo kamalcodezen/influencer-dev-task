@@ -34,3 +34,22 @@
     width: min(90%, 1047px);
     margin: 0 auto;
 }
+
+/* ---primary color pink */
+.primary-color {
+    color: rgba(224, 44, 109, 1);
+}
+
+/* ---header color */
+.dark-gray {
+    color: rgba(58, 58, 58, 1);
+}
+
+/* ----card box color--*/
+.medium-dark-gray {
+    color: rgba(24, 25, 31, 1);
+}
+/* --display felx-- */
+.display-flex{
+    display: flex;
+}
