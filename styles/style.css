@@ -70,6 +70,11 @@
     margin-bottom: 100px;
 }
 
+.rating-color {
+    color: #fb8200;
+    width: 16px;
+}
+
 /* ------------shared style end ------- */
 
 /* ---- header style area start-------*/
@@ -137,6 +142,7 @@ header .nav-container {
     color: white;
     border: none;
     border-radius: 41px;
+    cursor: pointer;
 }
 
 .content-btn .btn-icon {
@@ -186,4 +192,59 @@ header .nav-container {
 }
 
 /* ----company section style---- */
+.item {
+    margin-bottom: clamp(1.75rem, 4vw, 3rem);
+    padding-top: clamp(3rem, 8vw, 6.25rem);
+}
+
+.item-container .item-heading {
+    font-size: clamp(1rem, 2.5vw, 2.125rem);
+    font-weight: 600;
+    line-height: clamp(3rem, 6vw, 4.375rem);
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+.card .card-name {
+    font-size: clamp(1.5rem, 2.2vw, 1.75rem);
+    font-weight: 500;
+    line-height: clamp(2rem, 3vw, 2.5rem);
+    color: rgba(24, 25, 31, 1);
+}
+
+.card .card-price {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 150%;
+}
+
+.card .rating-num {
+    font-weight: 700;
+    color: rgba(94, 99, 102, 1);
+}
+
+.card .card-info {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: rgba(120, 120, 133, 1);
+    line-height: 143%;
+}
+
+.item-card-box .card {
+    padding: 1rem;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);
+    max-width: 328px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.item-container .item-card-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* -----item card section style end--- */
 /* ----main area style end--- */
