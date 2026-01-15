@@ -67,7 +67,8 @@
 }
 
 .company,
-.item-container {
+.item-container,
+.feature {
     margin-bottom: clamp(4rem, 6vw, 6.25rem);
 }
 
@@ -251,4 +252,9 @@ header .nav-container {
 }
 
 /* -----item card section style end--- */
+/* ----feature style start---- */
+.feature .feature-container{
+    
+}
+/* ----feature style :end---- */
 /* ----main area style end--- */
