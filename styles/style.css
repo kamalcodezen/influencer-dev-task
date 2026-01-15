@@ -337,3 +337,8 @@ footer {
 }
 
 /* ---footer area style end------ */
+
+
+.hide{
+    display: none;
+}
