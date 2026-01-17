@@ -202,7 +202,6 @@
     gap: 1.5rem;
     align-items: center;
     justify-items: center;
-    /* padding: clamp(1.5rem, 3.5vw, 2.125rem) clamp(1.5rem, 5vw, 3.75rem); */
     border-top: 1px solid rgba(58, 58, 58, 1);
     border-bottom: 1px solid rgba(58, 58, 58, 1);
 }
@@ -214,24 +213,24 @@
 
 /* ----company section style---- */
 .item-container .item-heading {
-    font-size: clamp(1rem, 2.5vw, 2.125rem);
+    font-size: clamp(1.5rem, 3vw, 2.125rem);
     font-weight: 600;
-    line-height: clamp(3rem, 6vw, 4.375rem);
+    line-height: clamp(2.25rem, 5vw, 4.375rem);
     text-align: center;
-    margin-bottom: 1.8rem;
+    margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .card .card-name {
-    font-size: clamp(1.5rem, 2.2vw, 1.75rem);
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
     font-weight: 500;
-    line-height: clamp(2rem, 3vw, 2.5rem);
+    line-height: clamp(1.75rem, 3vw, 2.5rem);
     color: rgba(24, 25, 31, 1);
 }
 
 .card .card-price {
-    font-size: 1.5rem;
+    font-size: clamp(1.125rem, 2vw, 1.5rem);
     color: rgba(0, 0, 0, 0.87);
-    line-height: 150%;
+    line-height: 1.5;
 }
 
 .card .rating-num {
@@ -243,23 +242,25 @@
     font-size: 0.875rem;
     font-weight: 700;
     color: rgba(120, 120, 133, 1);
-    line-height: 143%;
+    line-height: 1.43;
 }
 
 .item-card-box .card {
     padding: 1rem;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background: rgba(255, 255, 255, 1);
-    max-width: 328px;
-    width: 100%;
+    /* max-width: 328px;
+    width: 100%; */
     border-radius: 5px;
 
 }
 
 .item-container .item-card-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    /* grid-template-columns: repeat(3, 1fr); */
+     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: clamp(1.25rem, 3vw, 2rem);
+    
 }
 
 .item-container .item-see-more {
@@ -269,7 +270,10 @@
     text-align: end;
     padding-top: clamp(2rem, 4vw, 3.125rem);
 }
-
+  .card>img{
+    width: 100%;
+    height: auto;
+  }
 /* -----item card section style end--- */
 /* ----feature style start---- */
 .feature .feature-container {

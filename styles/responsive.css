@@ -26,7 +26,7 @@
       display: inline;
       font-size: 18px;
    }
-
+/* company section */
    .company-container .company-box {
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: repeat(1, 10px);
