@@ -125,6 +125,10 @@
 
 /*----- nav area style end ----- */
 /* ----banner style start---- */
+.banner {
+    margin-bottom: clamp(2.5rem, 6vw, 6.25rem);
+}
+
 .banner .banner-container {
     justify-content: space-between;
     align-items: center;
@@ -182,27 +186,30 @@
 /* ----banner style end---- */
 
 /* ---- header style area end-------*/
+
 /* ----main area style start--- */
+
 /* ----company section style---- */
-.company {
-    /* margin-top: clamp(2rem, 4.5vw, 3.25rem); */
-    padding-top: clamp(2rem, 4.5vw, 5.25rem);
-}
 
 .company .company-container {
-    /* padding: clamp(1.5rem, 3.5vw, 2.125rem) clamp(1.5rem, 5vw, 3.75rem); */
-    padding: 36px 62px;
-    border-top: 1px solid rgba(58, 58, 58, 1);
-    border-bottom: 1px solid rgba(58, 58, 58, 1);
     align-items: center;
 }
 
 .company-container .company-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 100px);
     gap: 1.5rem;
     align-items: center;
-    margin: auto 0;
+    justify-items: center;
+    /* padding: clamp(1.5rem, 3.5vw, 2.125rem) clamp(1.5rem, 5vw, 3.75rem); */
+    border-top: 1px solid rgba(58, 58, 58, 1);
+    border-bottom: 1px solid rgba(58, 58, 58, 1);
+}
+
+.company-logo img {
+    width: 100%;
+    height: auto;
 }
 
 /* ----company section style---- */
