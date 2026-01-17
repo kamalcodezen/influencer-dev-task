@@ -1,12 +1,4 @@
 /* ================================
-   🖥️ Large Desktop (1201px+)
-================================ */
-@media screen and (min-width: 1201px) {
-   /* large desktop styles */
-}
-
-
-/* ================================
    💻 Laptop (993px – 1200px)
 ================================ */
 @media screen and (max-width: 1200px) {
@@ -26,7 +18,8 @@
       display: inline;
       font-size: 18px;
    }
-/* company section */
+
+   /* company section */
    .company-container .company-box {
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: repeat(1, 10px);
@@ -49,9 +42,7 @@
       grid-column: span 4;
       grid-row: span 1;
    }
-
 }
-
 
 /* ================================
    📱 Mobile (≤576px)
@@ -70,12 +61,14 @@
       flex-direction: column-reverse;
       text-align: center;
    }
-   .feature-container{
+
+   .feature-container {
       flex-direction: column-reverse;
       text-align: center;
    }
-   .feature-content .feature-heading{
+
+   .feature-content .feature-heading {
       margin-bottom: 12px;
-      line-height:2rem;
+      line-height: 2rem;
    }
 }

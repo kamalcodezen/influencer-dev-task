@@ -214,7 +214,7 @@
 /* ----company section style---- */
 .item-container .item-heading {
     font-size: clamp(1.5rem, 3vw, 2.125rem);
-    font-weight: 600;
+    font-weight: 700;
     line-height: clamp(2.25rem, 5vw, 4.375rem);
     text-align: center;
     margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
@@ -222,7 +222,7 @@
 
 .card .card-name {
     font-size: clamp(1.25rem, 2vw, 1.75rem);
-    font-weight: 500;
+    font-weight: 600;
     line-height: clamp(1.75rem, 3vw, 2.5rem);
     color: rgba(24, 25, 31, 1);
 }
