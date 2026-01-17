@@ -25,20 +25,23 @@
 
 /* ----container 1 */
 .container-1 {
-    width: min(90%, 1200px);
-    margin: 0 auto;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: clamp(1rem, 3vw, 2rem);
 }
 
 /* --container 2 */
 .container-2 {
-    width: min(90%, 1110px);
-    margin: 0 auto;
+    max-width: 1110px;
+    margin-inline: auto;
+    padding-inline: clamp(1rem, 3vw, 2rem);
 }
 
 /* ---container 3 */
 .container-3 {
-    width: min(90%, 1047px);
-    margin: 0 auto;
+    max-width: 1047px;
+    margin-inline: auto;
+    padding-inline: clamp(1rem, 3vw, 2rem);
 }
 
 /* ---hide class */
@@ -86,7 +89,7 @@
 /* ---- header style area start-------*/
 
 /*----- nav area style start----- */
- .nav-container {
+.nav-container {
     justify-content: space-between;
     align-items: center;
     margin-top: clamp(2rem, 1.2vw, 2rem)
@@ -156,19 +159,23 @@
 }
 
 .banner-container .banner-img {
-    max-width: 440px;
-    width: 100;
-    margin-right: clamp(1.25rem, 4vw, 2.8125rem);
-    background: url("../images/Circle\ design.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    max-width: clamp(18rem, 50vw, 27.5rem);
+    position: relative;
+}
+
+.banner-container .banner-img .banner-bg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
 }
 
 .banner-container .banner-img img {
     width: 100%;
     height: auto;
     display: block;
+    position: relative;
+    z-index: 2;
 }
 
 /* ----banner style end---- */
