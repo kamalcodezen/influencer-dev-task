@@ -9,7 +9,7 @@
 /* ================================
    💻 Laptop (993px – 1200px)
 ================================ */
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
    /* laptop styles */
 }
 
@@ -17,7 +17,7 @@
 /* ================================
    📲 Tablet (577px – 992px)
 ================================ */
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
    .menu-list {
       display: none;
    }
@@ -39,6 +39,10 @@
 
    .menu-icon {
       display: inline;
-     font-size: 18px;
+      font-size: 18px;
+   }
+   .banner-container {
+      flex-direction: column-reverse;
+      text-align: center;
    }
 }

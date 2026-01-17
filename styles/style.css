@@ -129,10 +129,11 @@
     justify-content: space-between;
     align-items: center;
     padding-top: clamp(2.5rem, 5vw, 5rem);
+    gap: clamp(2.5rem, 6vw, 6.25rem);
 }
 
 .banner-container .banner-content {
-    max-width: 580px;
+    max-width: clamp(22rem, 50vw, 36.25rem);
     width: 100%;
 }
 
