@@ -86,10 +86,14 @@
 /* ---- header style area start-------*/
 
 /*----- nav area style start----- */
-header .nav-container {
+ .nav-container {
     justify-content: space-between;
     align-items: center;
     margin-top: clamp(2rem, 1.2vw, 2rem)
+}
+
+.menu-icon {
+    display: none;
 }
 
 .nav-container .nav-logo {
@@ -329,7 +333,7 @@ footer {
 
 .social-link {
     gap: 16px;
-   justify-content: center;
+    justify-content: center;
 }
 
 .footer-content .social-link a {
@@ -339,6 +343,6 @@ footer {
 /* ---footer area style end------ */
 
 
-.hide{
+.hide {
     display: none;
 }

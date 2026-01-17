@@ -2,7 +2,7 @@
    🖥️ Large Desktop (1201px+)
 ================================ */
 @media screen and (min-width: 1201px) {
-    /* large desktop styles */
+   /* large desktop styles */
 }
 
 
@@ -10,7 +10,7 @@
    💻 Laptop (993px – 1200px)
 ================================ */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-    /* laptop styles */
+   /* laptop styles */
 }
 
 
@@ -18,7 +18,14 @@
    📲 Tablet (577px – 992px)
 ================================ */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    /* tablet styles */
+   .menu-list {
+      display: none;
+   }
+
+   .menu-icon {
+      display: inline;
+      font-size: 18px;
+   }
 }
 
 
@@ -26,5 +33,12 @@
    📱 Mobile (≤576px)
 ================================ */
 @media screen and (max-width: 576px) {
-   
+   .menu-list {
+      display: none;
+   }
+
+   .menu-icon {
+      display: inline;
+     font-size: 18px;
+   }
 }
